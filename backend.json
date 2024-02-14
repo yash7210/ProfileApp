@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "m1m4hmZ8x1Yvyy7YabCBeHWMqL12": {
+        "type": "object",
+        "properties": {
+          "image": {"type": "string", "format": "uri"},
+          "movie": {"type": "string"},
+          "name": {"type": "string"},
+          "song": {"type": "string"},
+          "zodiac": {"type": "string"}
+        },
+        "required": ["image", "movie", "name", "song", "zodiac"]
+      },
+      "vfrMdC227PYhgTkgPu5Bka3MI6G2": {
+        "type": "object",
+        "properties": {
+          "image": {"type": "string", "format": "uri"},
+          "movie": {"type": "string"},
+          "name": {"type": "string"},
+          "song": {"type": "string"},
+          "zodiac": {"type": "string"}
+        },
+        "required": ["image", "movie", "name", "song", "zodiac"]
+      }
+    },
+    "required": ["m1m4hmZ8x1Yvyy7YabCBeHWMqL12", "vfrMdC227PYhgTkgPu5Bka3MI6G2"]
+  }
+  
