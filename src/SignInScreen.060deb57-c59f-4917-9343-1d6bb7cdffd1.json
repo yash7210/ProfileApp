@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -3,
+                "ParentId": "060deb57-c59f-4917-9343-1d6bb7cdffd1",
+                "Y": 84.79687499999997,
+                "RelativeX": -3,
+                "RelativeY": 84,
+                "position": "absolute",
+                "edgeOffsets": 84.79687499999997,
+                "style": {
+                    "position": "absolute",
+                    "left": "18%",
+                    "top": "15.861600449775112%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "afa609b9-cb0a-4a8c-9943-1dce92d183df",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -130,13 +160,13 @@
             "properties": {
                 "Picture": "yashgram-high-resolution-logo-transparent.png",
                 "resizeMode": "stretch",
-                "Height": 102,
-                "Width": 158,
+                "Height": 67,
+                "Width": 93,
                 "Visible": true,
-                "X": 108,
-                "Y": 11,
-                "RelativeX": 108,
-                "RelativeY": 11,
+                "X": 143,
+                "Y": 5,
+                "RelativeX": 143,
+                "RelativeY": 5,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -163,7 +193,7 @@
                 "capInsets": {},
                 "ParentId": "060deb57-c59f-4917-9343-1d6bb7cdffd1",
                 "position": "absolute",
-                "edgeOffsets": 11
+                "edgeOffsets": 5.999999999999999
             },
             "children": [],
             "id": "0db93335-c7b1-4a7e-a6f1-0e0cf00441bb",
